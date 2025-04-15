@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v1.0<br/>
-  <a href="" target="_blank">krisinadermanskaya</a>
+  <a href="https://kristina-dermanskaya.vercel.app" target="_blank">krisinadermanskaya</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./public/Screen.PNG" />
