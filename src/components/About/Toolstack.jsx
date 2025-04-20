@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { VscVscodeInsiders } from "react-icons/vsc";
 import { DiWindows } from "react-icons/di";
-import { SiGithub,SiFigma } from "react-icons/si";
+import { SiGithub,SiFigma,SiVercel,SiNetlify } from "react-icons/si";
 
 function Toolstack() {
   return (
@@ -18,6 +18,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNetlify />
       </Col>
       
     </Row>

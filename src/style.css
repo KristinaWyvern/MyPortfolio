@@ -381,7 +381,6 @@ button:focus {
 /* Projects */
 /* --------- */
 .project-section {
-  height: 95vh;
   width: 100%;  
   position: relative !important;
   padding-top: 150px !important;
