@@ -37,7 +37,7 @@ const {lang} = useContext(CounterContext);
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={barMenu}
+              imgPath={flapyBird}
               isBlog={false}
               title="FlappyBirdGame"
               description={lang == 'ru' && ('Симулятор Flappy Bird на основе JS.') 
