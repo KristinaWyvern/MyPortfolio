@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import CounterContext from '../../context/CounterContext';
 import barMenu from '../../assets/Project/barMenu.png';
 import flapyBird from '../../assets/Project/flappyBird.png';
+import Quiz from '../../assets/Project/Quiz.png';
 
 function Projects() {
   
@@ -23,7 +24,18 @@ const {lang} = useContext(CounterContext);
         {lang == 'ru' && ('Вот несколько проектов, над которыми я работал в последнее время.') 
               || lang == 'en' &&(`Here are a few projects I've worked on recently.`)}          
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>                   
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Quiz}
+              isBlog={false}
+              title="Personality Quiz"
+              description={lang == 'ru' && ('Онлайн-викторина, построенная на react.js.') 
+                || lang == 'en' &&(`An online personality quiz built on react.js.`)}   
+              ghLink="https://github.com/KristinaWyvern/Personality-Quiz"
+              demoLink="https://personality-quiz-eight.vercel.app"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={barMenu}
@@ -45,7 +57,7 @@ const {lang} = useContext(CounterContext);
               ghLink="https://github.com/KristinaWyvern/FlappyBirdGame"
               demoLink="https://flappy-bird-game-clone.netlify.app"
             />
-          </Col>
+          </Col> 
         </Row>
       </Container>
     </Container>
