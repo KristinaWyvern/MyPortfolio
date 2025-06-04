@@ -17,12 +17,6 @@ import {SiPostgresql,SiSharp } from "react-icons/si";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center"}}>
-<Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSharp />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -31,18 +25,24 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
-      </Col>
+      </Col>   
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
+      </Col>      
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+      </Col>      
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMsqlServer />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />

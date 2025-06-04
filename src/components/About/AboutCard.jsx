@@ -8,7 +8,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify", fontSize:"24px" }}>            
+          <p style={{ textAlign: "justify", fontSize:"1.2rem" }}>            
           {lang == 'ru' && ('Я разработчик, живущая в ') 
               || lang == 'en' &&('I am a developer living in ')}
             <span className="purple">{lang == 'ru' && ('Беларуси.') 
