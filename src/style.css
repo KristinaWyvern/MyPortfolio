@@ -207,7 +207,7 @@ button:focus {
 
   .home-section  {  
     position: relative;
-    height: 95vh;
+    height: 90vh;
     width: 100%;  
     z-index: 1;
     background-size:250px 250px;
