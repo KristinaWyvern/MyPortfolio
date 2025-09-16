@@ -14,9 +14,9 @@ function AboutCard() {
             <span className="purple">{lang == 'ru' && ('Беларуси.') 
               || lang == 'en' &&('Belarus.')}</span>
             <br />
-            {lang == 'ru' && ('Люблю пробовать новое и создавать интересные проекты.  Я независимый фрилансер.') 
-              || lang == 'en' &&(' I like to try new things and create interesting projects. I am an independent freelancer. ')}
-            <br />{lang == 'ru' && ('Я верю, что все является искусством, когда вы вкладываете в это свое сознание. ') 
+            {lang == 'ru' && ('Люблю пробовать новое и создавать интересные проекты. ') 
+              || lang == 'en' &&(' I like to try new things and create interesting projects. ')}
+            <br />{lang == 'ru' && ('Я верю, что все становится искусством, когда ты вкладываешь в это душу. ') 
               || lang == 'en' &&('I believe that everything is art when you put your mind into it. ')}
           </p>
         </blockquote>
